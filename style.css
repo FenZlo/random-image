@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.buttonContainer {
+    height: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.button {
+    margin-top: 40px;
+    width: 500px;
+    text-align: center;
+    color: #ffffff;  
+    font-size: 25px;
+    font-weight: bold;
+    background-color: #000000;
+    border-radius: 70px;
+    border: solid;
+    border-color: rgb(253, 2, 232);
+    transition: background-color 1s;
+    transform: scale(1.5);
+}
+
+button:hover {
+    background-color: rgb(255, 0, 170);
+}
+
+.widthHeight {
+    margin-top: 50px;
+    width: 100px;
+    height: 30px;
+}
+
+.littleButton {
+    margin-top: 20px;
+    text-align: center;
+    height: 20px;
+    width: 70px;
+    color: #ffffff;  
+    font-size: 15px;
+    font-weight: bold;
+    background-color: #000000;
+    border-radius: 70px;
+    border: solid;
+    border-color: rgb(253, 2, 232);
+}
